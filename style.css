@@ -88,6 +88,11 @@ p {
     transform: scale(0.99);
 }
 
+.meme {
+    position: relative;
+    margin: 0 auto;
+}
+
 .meme-image {
     margin: 0 auto;
     max-width: 100%;
@@ -96,14 +101,7 @@ p {
     margin-bottom: 1rem;
 }
 
-.meme {
-    position: relative;
-}
 
-.meme--image {
-    max-width: 100%;
-    border-radius: 3px;
-}
 
 .meme--text {
     position: absolute;
